@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>music-discographies</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/main-script.js" defer></script>
+    <!-- <script src="temp-letterFocus.js"></script> -->
 </head>
 <body>
     <div class="page-wrapper">
@@ -15,35 +17,37 @@
             <div class="main-content-container">
                 <div class="artist-container">
                     <h2>&lt;artist></h2>
-
                     <div class="album-container">
                         <h3 class="album-title">&lt;albumTitle></h3>
                         <h4 class="year-Album">&lt;yearAlbum></h4>
+                        <header class="album-header-row">
+                            <h6>songs</h6>
+                            <h6>dislike / like</h6>
+                            <h6>song-comments</h6>
+                        </header>
                         <div class="song-review-container">
                             <div class="song-row">
                                 <h5 class="song-tile">
                                     1. &lt;songTitle>
                                 </h5>
-                                <div class="checkbox">
-                                    add checkbox here 
+                                <div class="checkboxes">
+                                    <span>x</span>
+                                    <span>&check;</span>
                                 </div>
-                                <div class="review">
-                                    <p>
-                                        Place review here
-                                    </p>
+                                <div class="song-comments">
+                                    <textarea name="" id=""></textarea>    
                                 </div>
                             </div>
                             <div class="song-row">
                                 <h5 class="song-tile">
                                     2. &lt;songTitle>
                                 </h5>
-                                <div class="checkbox">
-                                    add checkbox here 
+                                <div class="checkboxes">
+                                    <span>x</span>
+                                    <span>&check;</span>
                                 </div>
-                                <div class="review">
-                                    <p>
-                                        Place review here
-                                    </p>
+                                <div class="song-comments">
+                                    <textarea name="" id=""></textarea>
                                 </div>
                             </div>
                         </div>
@@ -53,6 +57,23 @@
                 </div>
             </div>    
         </main>
+        <article>
+            <h2>notes</h2>
+            <p>Do not manually input html, create json, and inject from pasting url from wikipedia discographie to autofill 
+                each song from each album from any artist, 
+                then use the json to create a form to fill out each song with a like or dislike, and a comment.
+                This will be used to create a music discography for each artist, and then use the
+                data to create a sharing music taste to other people and seeing what people like or dislike.
+            </p>
+        </article>
+        <footer class="mobile-footer-header">
+            <div class="main-links">
+                <a tabindex="0" id="homelink" href="https://tylertomani.github.io/myWebSite/index.html">Home (main)</a>
+                <a tabindex="0" id="backlink" href="../../index.html">back (boiler plates)</a>
+            </div>
+            <div class="main-links">        
+            </div>
+        </footer>
     </div>
     
     

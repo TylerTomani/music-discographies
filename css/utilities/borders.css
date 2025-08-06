@@ -1,0 +1,9 @@
+.artist-container{
+    border: 2px solid blue;
+}
+.song-review-container{
+    border: 2px solid green;
+}
+.song-review-container > .song-row > .checkboxes span{
+    border: 1px solid black;
+    }

@@ -1,1 +1,10 @@
+/* Utilities */
 @import url('utilities/layout.css');
+@import url('utilities/borders.css');
+@import url('utilities/position.css');
+@import url('utilities/sizing.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
