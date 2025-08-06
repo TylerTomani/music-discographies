@@ -1,0 +1,10 @@
+[
+    {
+        "artist": "Wynton Kelly",
+        "wikiDiscLink": "https://en.wikipedia.org/wiki/Wynton_Kelly_discography",
+        "albums":{
+            "scrape": "use python you scrape the list in html format on page"
+        }
+    },
+
+]
