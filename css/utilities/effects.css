@@ -1,0 +1,9 @@
+.disliked.checked {
+    background-color: tomato;
+}
+.neutral.checked {
+    background-color: rgb(120, 138, 120);
+}
+.liked.checked {
+    background-color: lightgreen;
+}

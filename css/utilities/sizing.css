@@ -1,3 +1,8 @@
+.header-artist img {
+    max-height: 100px;
+    max-width: 100px;
+}
+
 .song-review-container > .song-row > .checkboxes span{
     height: 100%;
     width: 100%;

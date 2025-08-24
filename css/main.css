@@ -1,6 +1,7 @@
 /* Utilities */
-@import url('utilities/layout.css');
 @import url('utilities/borders.css');
+@import url('utilities/effects.css');
+@import url('utilities/layout.css');
 @import url('utilities/position.css');
 @import url('utilities/sizing.css');
 *{
