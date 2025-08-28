@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>music-discographies</title>
     <link rel="stylesheet" href="css/main.css">
-    <script src="js/main-script.js" defer></script>
+    <script type="module" src="js/main-script.js" defer></script>
     <!-- <script src="temp-letterFocus.js"></script> -->
 </head>
 <body>
@@ -16,15 +16,15 @@
         <main class="main-container">
             <div class="main-content-container">
                 <div id="jDilla" class="artist-container">
-                    <div tabindex="0" class="header-artist">
+                    <div  class="header-artist">
+                        <h2 tabindex="0" class="artist-name drop-down">J Dilla&lt;artist></h2>
                         <div class="header-artist-title">
-                            <h2>J Dilla&lt;artist></h2>
                             <p>
                                 Take your time styling this right
                                 slowly increment correct keyboard-nav from 
                                 the best versions on newer pages
                             </p>
-                            <a id="wikiepediaDiscography" target="_blank" href="https://en.wikipedia.org/wiki/J_Dilla_discography">wikiepedia discography</a>
+                            <a tabindex="0" class="wiki-disc-link" target="_blank" href="https://en.wikipedia.org/wiki/J_Dilla_discography">wikiepedia discography</a>
                         </div>
                         <div class="bio-artist">
                             <p>
@@ -41,9 +41,9 @@
                         <img src="https://upload.wikimedia.org/wikipedia/en/e/ed/J_Dilla_James_Yancy.jpg" alt="">
                     </div>
                     <div class="year-container">
-                        <h4 tabindex="0" class="year-container-title">2001s&lt;year-container-title></h4>
+                        <h4 tabindex="0" class="year-container-title drop-down">2001s&lt;year-container-title></h4>
                         <div class="album-container">
-                            <h3 tabindex="0" class="album-title">Welcome 2 Detroit&lt;albumTitle></h3>
+                            <h3 tabindex="0" class="album-title drop-down">Welcome 2 Detroit&lt;albumTitle></h3>
                                 <header class="album-header-row">
                                     <h6>songs</h6>
                                     <h6>  disklike    / neutral / like</h6>
@@ -51,37 +51,34 @@
                                 </header>
                                 <div class="song-container">
                                     <!-- 1. -->
-                                    <div tabindex="0" class="song">
-                                        <h5 tabindex="0" class="song-title">
-                                            1. Welcome 2 Detroit &lt;songTitle>
-                                            <div class="song-links">
-                                                <a class="instrumental" target="_blank"  href="https://www.youtube.com/watch?v=eFAk7MEE3uk">instrumental</a>
-                                                <a class="link-song"    target="_blank"  href="https://www.youtube.com/watch?v=bPVh4LSCuks">song link</a>
+                                    <div  class="song">
+                                        <h5 tabindex="0" class="song-title"> 1. Welcome 2 Detroit &lt;songTitle> </h5>
+                                        <div class="song-links">
+                                            <a tabindex="0" class="instrumental" target="_blank"  href="https://www.youtube.com/watch?v=eFAk7MEE3uk">instrumental</a>
+                                            <a tabindex="0" class="link-song"    target="_blank"  href="https://www.youtube.com/watch?v=bPVh4LSCuks">song link</a>
 
-                                            </div>
-                                        </h5>
+                                        </div>
                                         <div class="checkboxes">
                                             <span tabindex="0" class="dislike">x</span>
                                             <span tabindex="0" class="neutral">x</span>
                                             <span tabindex="0" class="liked checked ">&check;</span>
                                         </div>
                                         <div class="song-comments">
-                                            <textarea name="" id=""></textarea>    
+                                            <textarea tabindex="0" name="" id=""></textarea>    
                                         </div>
                                     </div>
                                     <!-- 2. -->
-                                    <div tabindex="0" class="song">
-                                        <h5 class="song-title">
-                                            2. Y'all Ain't Ready &lt;songTitle>
-                                            <div class="song-links">
-                                                <a class="instrumental" target="_blank"  href="
-                                                https://www.youtube.com/watch?v=k2RyVckQ8gw
-                                                ">instrumental</a>
-                                                <!-- <a class="link-song"    target="_blank"  href="
-                                                https://www.youtube.com/watch?v=avg7YZoOOsU
-                                                ">song link</a> -->
-                                            </div>
-                                        </h5>
+                                    <div class="song">
+                                        <h5 tabindex="0" class="song-title">2. Y'all Ain't Ready &lt;songTitle></h5>
+                                        <div class="song-links">
+                                            <a class="instrumental" target="_blank"  href="
+                                            https://www.youtube.com/watch?v=k2RyVckQ8gw
+                                            ">instrumental</a>
+                                            <!-- <a class="link-song"    target="_blank"  href="
+                                            https://www.youtube.com/watch?v=avg7YZoOOsU
+                                            ">song link</a> -->
+                                        </div>
+                                        
                                         <div class="checkboxes">
                                             <span tabindex="0" class="disliked checked">x</span>
                                             <span tabindex="0" class="neutral">x</span>
@@ -92,10 +89,8 @@
                                         </div>
                                     </div>
                                     <!-- 3. -->
-                                    <div tabindex="0" class="song">
-                                        <h5 class="song-title">
-                                            3. &lt;songTitle>
-                                        </h5>
+                                    <div  class="song">
+                                        <h5 tabindex="0" class="song-title">3. &lt;songTitle></h5>
                                         <div class="checkboxes">
                                             <span>x</span>
                                             <span>&check;</span>
