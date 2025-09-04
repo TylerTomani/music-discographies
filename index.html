@@ -14,8 +14,13 @@
             <h1>music-discographies</h1>
         </header>
         <main class="main-container">
+            <div class="artist-search">
+                <input type="text" id="artistSearchInput" placeholder="Search artist..." />
+                <button id="artistSearchBtn">Search</button>
+            </div>
             <div class="main-content-container">
-                <div id="jDilla" class="artist-container">
+                <!-- HTML ARTIST EXAMPLE -->
+                <!-- <div id="jDilla" class="artist-container">
                     <div  class="header-artist">
                         <h2 tabindex="0" class="artist-name drop-down">J Dilla&lt;artist></h2>
                         <div class="header-artist-title">
@@ -44,96 +49,72 @@
                         <h4 tabindex="0" class="year-container-title drop-down">2001s&lt;year-container-title></h4>
                         <div class="album-container">
                             <h3 tabindex="0" class="album-title drop-down">Welcome 2 Detroit&lt;albumTitle></h3>
-                                <header class="album-header-row">
-                                    <h6>songs</h6>
-                                    <h6>  disklike    / like / love</h6>
-                                    <h6>song-comments</h6>
-                                </header>
-                                <div class="song-container">
-                                    <!-- 1. -->
-                                    <div  class="song">
-                                        <header class="song-header">
-                                            <h5 tabindex="0" class="song-title"> 1. Welcome 2 Detroit &lt;songTitle> </h5>
-                                            <div class="song-links">
-                                                <a tabindex="0" class="instrumental" target="_blank"  href="https://www.youtube.com/watch?v=eFAk7MEE3uk">instrumental</a>
-                                                <a tabindex="0" class="link-song"    target="_blank"  href="https://www.youtube.com/watch?v=bPVh4LSCuks">song link</a>
-    
-                                            </div>
-                                        </header>
-                                        <div class="checkboxes">
-                                            <span tabindex="0" class="dislike">x</span>
-                                            <span tabindex="0" class="neutral">x</span>
-                                            <span tabindex="0" class="liked checked ">&check;</span>
-                                        </div>
-                                        <div class="song-comments">
-                                            <textarea tabindex="0" name="" id=""></textarea>    
-                                        </div>
-                                    </div>
-                                    <!-- 2. -->
-                                    <div class="song">
+                            <header class="album-header-row">
+                                <h6>songs</h6>
+                                <h6>  disklike    / like / love</h6>
+                                <h6>song-comments</h6>
+                            </header>
+                            <div class="song-container">
+                                <div  class="song">
+                                    <header class="song-header">
+                                        <h5 tabindex="0" class="song-title"> 1. Welcome 2 Detroit &lt;songTitle> </h5>
+                                        <div class="song-links">
+                                            <a tabindex="0" class="instrumental" target="_blank"  href="https://www.youtube.com/watch?v=eFAk7MEE3uk">instrumental</a>
+                                            <a tabindex="0" class="link-song"    target="_blank"  href="https://www.youtube.com/watch?v=bPVh4LSCuks">song link</a>
 
-                                        <div class="page-header">
-                                            <h5 tabindex="0" class="song-title">2. Y'all Ain't Ready &lt;songTitle></h5>
-                                            <div class="song-links">
-                                                <a class="instrumental" target="_blank"  href="https://www.youtube.com/watch?v=k2RyVckQ8gw">instrumental</a>
-                                                <!-- <a class="link-song"    target="_blank"  href="
-                                                https://www.youtube.com/watch?v=avg7YZoOOsU
-                                                ">song link</a> -->
-                                            </div>
                                         </div>
-                                        
-                                        <div class="checkboxes">
-                                            <span tabindex="0" class="disliked checked">x</span>
-                                            <span tabindex="0" class="neutral">x</span>
-                                            <span tabindex="0" class="liked ">&check;</span>
-                                        </div>
-                                        <div class="song-comments">
-                                            <textarea name="" id=""></textarea>    
-                                        </div>
+                                    </header>
+                                    <div class="checkboxes">
+                                        <span tabindex="0" class="dislike">x</span>
+                                        <span tabindex="0" class="neutral">x</span>
+                                        <span tabindex="0" class="liked checked ">&check;</span>
                                     </div>
-                                    <!-- 3. -->
-                                    <div  class="song">
-                                        <header class="song-header">
-                                            <!-- Figure out how to focus to symbol, or disregard it get letter instead -->
-                                            <h5 tabindex="0" class="song-title">3. &lt;songTitle></h5>
-                                            
-                                        </header>
-                                        <div class="checkboxes">
-                                            <span>x</span>
-                                            <span>&check;</span>
-                                        </div>
-                                        <div class="song-comments">
-                                            <textarea name="" id=""></textarea>
-                                        </div>
-                                    </div>
-                                    <!-- Use 1. format to create new and overwrite what's already here -->
-                                     <!-- create json  -->
-                                    <div tabindex="0" class="song">
-                                        <header class="song-header">
-                                            <h5 class="song-title">
-                                                Use 1. format to create new and overwrite what's already here
-                                            </h5>
-                                            <div class="song-links">
-
-                                            </div>
-
-                                        </header>
-                                        <div class="checkboxes">
-                                            <span>x</span>
-                                            <span>&check;</span>
-                                        </div>
-                                        <div class="song-comments">
-                                            <textarea name="" id="" >
-Use 1. format to create new and overwrite what's already here
-                                            </textarea>
-                                        </div>
+                                    <div class="song-comments">
+                                        <textarea tabindex="0" name="" id=""></textarea>    
                                     </div>
                                 </div>
+                                
+                                <div class="song">
+                                    <div class="page-header">
+                                        <h5 tabindex="0" class="song-title">2. Y'all Ain't Ready &lt;songTitle></h5>
+                                        <div class="song-links">
+                                            <a class="instrumental" target="_blank"  href="https://www.youtube.com/watch?v=k2RyVckQ8gw">instrumental</a>
+                                            <a class="link-song"    target="_blank"  href="
+                                            https://www.youtube.com/watch?v=avg7YZoOOsU
+                                            ">song link</a>
+                                        </div>
+                                    </div>
+                                    <div class="checkboxes">
+                                        <span tabindex="0" class="disliked checked">x</span>
+                                        <span tabindex="0" class="neutral">x</span>
+                                        <span tabindex="0" class="liked ">&check;</span>
+                                    </div>
+                                    <div class="song-comments">
+                                        <textarea name="" id=""></textarea>    
+                                    </div>
+                                </div>
+                                <div  class="song">
+                                    <header class="song-header">
+                                        <h5 tabindex="0" class="song-title">3. &lt;songTitle></h5>
+                                        <div class="song-links">
+                                            <a tabindex="0" class="instrumental" target="_blank"
+                                                href="https://www.youtube.com/watch?v=eFAk7MEE3uk">instrumental</a>
+                                            <a tabindex="0" class="link-song" target="_blank" href="https://www.youtube.com/watch?v=bPVh4LSCuks">song link</a>
+                                        </div>
+                                        
+                                    </header>
+                                    <div class="checkboxes">
+                                        <span>x</span>
+                                        <span>&check;</span>
+                                    </div>
+                                    <div class="song-comments">
+                                        <textarea name="" id=""></textarea>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
-        
-                </div>
+                </div> -->
             </div>    
         </main>
         <article>

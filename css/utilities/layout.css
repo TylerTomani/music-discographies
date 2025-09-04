@@ -56,3 +56,11 @@
     text-decoration: none;
     align-self: flex-end;
 }
+
+.year-container.collapsed .album-container {
+    display: none;
+}
+
+.album-container.collapsed .song-container {
+    display: none;
+}

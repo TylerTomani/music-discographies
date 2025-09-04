@@ -1,10 +1,59 @@
 [
     {
-        "artist": "Wynton Kelly",
-        "wikiDiscLink": "https://en.wikipedia.org/wiki/Wynton_Kelly_discography",
-        "albums":{
-            "scrape": "use python you scrape the list in html format on page"
-        }
-    },
-
+        "id": "jDilla",
+        "name": "J Dilla",
+        "wiki": "https://en.wikipedia.org/wiki/J_Dilla_discography",
+        "bio": {
+            "intro": "Take your time styling this right slowly increment correct keyboard-nav from the best versions on newer pages",
+            "birthday": "",
+            "homeplace": "",
+            "description": "put birth year hometown ..."
+        },
+        "img": "https://upload.wikimedia.org/wikipedia/en/e/ed/J_Dilla_James_Yancy.jpg",
+        "years": [
+            {
+                "year": "2001s",
+                "albums": [
+                    {
+                        "title": "Welcome 2 Detroit",
+                        "songs": [
+                            {
+                                "title": "1. Welcome 2 Detroit",
+                                "instrumental": "https://www.youtube.com/watch?v=eFAk7MEE3uk",
+                                "link": "https://www.youtube.com/watch?v=bPVh4LSCuks",
+                                "checkbox": {
+                                    "dislike": "x",
+                                    "neutral": "x",
+                                    "liked": "✔"
+                                },
+                                "comments": ""
+                            },
+                            {
+                                "title": "2. Y'all Ain't Ready",
+                                "instrumental": "https://www.youtube.com/watch?v=k2RyVckQ8gw",
+                                "link": "https://www.youtube.com/watch?v=avg7YZoOOsU",
+                                "checkbox": {
+                                    "dislike": "x",
+                                    "neutral": "x",
+                                    "liked": ""
+                                },
+                                "comments": ""
+                            },
+                            {
+                                "title": "2. Y'all Ain't Ready",
+                                "instrumental": "https://www.youtube.com/watch?v=k2RyVckQ8gw",
+                                "link": "https://www.youtube.com/watch?v=avg7YZoOOsU",
+                                "checkbox": {
+                                    "dislike": "x",
+                                    "neutral": "x",
+                                    "liked": ""
+                                },
+                                "comments": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
 ]

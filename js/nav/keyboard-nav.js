@@ -14,9 +14,19 @@ export function keyboardNav() {
 
     // helper: get first alphabetic char from text
     function getFirstLetter(el) {
-        const text = el.innerText.trim().toLowerCase();
-        const match = text.match(/[a-z]/);
-        return match ? match[0] : null;
+        const text = el.innerText.trim();
+
+        // split into words, ignore empty strings
+        const words = text.split(/\s+/).filter(Boolean);
+
+        for (const word of words) {
+            // find the first alphabetic character in this word
+            const match = word.match(/[a-z]/i);
+            if (match) return match[0].toLowerCase();
+        }
+
+        // fallback: no letters found
+        return null;
     }
 
     document.addEventListener('keydown', (e) => {
