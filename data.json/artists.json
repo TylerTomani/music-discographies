@@ -16,6 +16,7 @@
                 "albums": [
                     {
                         "title": "Welcome 2 Detroit",
+                        "imgAlbum": "https://upload.wikimedia.org/wikipedia/en/3/38/Welcome_2_Detroit_%28album_art%29.jpg",
                         "songs": [
                             {
                                 "title": "1. Welcome 2 Detroit",
@@ -51,6 +52,53 @@
                                 "comments": ""
                             }
                         ]
+                        
+                        
+                    }
+                ]
+            },
+            {
+                "year": "2002s",
+                "albums": [
+                    {
+                        "title": "Vol 1:Unreleased",
+                        "imgAlbum": "https://upload.wikimedia.org/wikipedia/en/1/19/Dilla_vol_1.jpg",
+                        "songs": [
+                            {
+                                "title": "1. Flyyyyy",
+                                "instrumental": "https://www.youtube.com/watch?v=jznuomjJFyQ",
+                                "link": "https://www.youtube.com/watch?v=jznuomjJFyQ",
+                                "checkbox": {
+                                    "dislike": "x",
+                                    "neutral": "x",
+                                    "liked": "✔"
+                                },
+                                "comments": ""
+                            },
+                            {
+                                "title": "Busta",
+                                "instrumental": "#",
+                                "link": "#",
+                                "checkbox": {
+                                    "dislike": "x",
+                                    "neutral": "",
+                                    "liked": ""
+                                },
+                                "comments": ""
+                            },
+                            {
+                                "title": "2. Y'all Ain't Ready",
+                                "instrumental": "https://www.youtube.com/watch?v=k2RyVckQ8gw",
+                                "link": "https://www.youtube.com/watch?v=avg7YZoOOsU",
+                                "checkbox": {
+                                    "dislike": "x",
+                                    "neutral": "x",
+                                    "liked": ""
+                                },
+                                "comments": ""
+                            }
+                        ]
+                        
                     }
                 ]
             }
