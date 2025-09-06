@@ -35,15 +35,15 @@ export async function injectArtists(containerSelector = ".main-content-container
             <h4 tabindex="0" class="year-container-title drop-down">${year.year}&lt;year-container-title></h4>
             ${year.albums.map(album => `
             <div class="album-container">
-                <header>
+                <header class="album-header">
                     <h3 tabindex="0" class="album-title drop-down">${album.title}&lt;albumTitle></h3>
                     <img src="${album.imgAlbum}" alt="">
                 </header>
-                <header class="album-header-row">
+                <nav class="album-header-row">
                     <h6>songs</h6>
                     <h6>dislike / like / love</h6>
                     <h6>song-comments</h6>
-                </header>
+                </nav>
                 <div class="song-container">
                     ${album.songs.map(song => `
                     <div class="song">
