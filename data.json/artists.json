@@ -76,7 +76,7 @@
                                 "comments": ""
                             },
                             {
-                                "title": "Busta",
+                                "title": "2. Busta",
                                 "instrumental": "#",
                                 "link": "#",
                                 "checkbox": {
@@ -87,9 +87,9 @@
                                 "comments": ""
                             },
                             {
-                                "title": "2. Y'all Ain't Ready",
-                                "instrumental": "https://www.youtube.com/watch?v=k2RyVckQ8gw",
-                                "link": "https://www.youtube.com/watch?v=avg7YZoOOsU",
+                                "title": "3. LL",
+                                "instrumental": "",
+                                "link": "",
                                 "checkbox": {
                                     "dislike": "x",
                                     "neutral": "x",

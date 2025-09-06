@@ -63,6 +63,7 @@
 .album-container > header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .album-container > header img{
     max-height: 150px;
